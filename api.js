@@ -33,23 +33,6 @@ axios.post('https://api.shutterstock.com/v2/cv/images', {
 .catch( e => {
   console.log(e.message);
 })
-// co`mputerVisionApi.uploadImage(body)
-//   .then((data) => {
-//     console.log(data.upload_id);
-//     let asset_id = data.upload_id;
-//     axios.post('https://api.shutterstock.com/v2/cv/images', {
-//       "base64_image" : base64File
-//     })
-//     return computerVisionApi.getSimilarImages({
-//       "asset_type": "images",
-//       "asset_id": "U2f048bc65ad8ceb5f826f81747a6c01b"
-//     });
-//   })
-//   .then((data) => {
-//     console.log(data);
-//   })
-//   .catch((error) => {
-//     console.error(error);
-//   });`
+
 
 
